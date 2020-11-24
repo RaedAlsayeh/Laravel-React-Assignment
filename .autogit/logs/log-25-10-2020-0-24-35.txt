@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Nov 25 2020 00:24:35 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* composer.json
+* composer.lock
+* package-lock.json
+* package.json
+
+
+Created files:
+* .autogit/logs/log-24-10-2020-23-54-24.txt
+* resources/views/app.blade.php
+* tsconfig.json
+
+
+Deleted files:
+
+
+Renamed files:
