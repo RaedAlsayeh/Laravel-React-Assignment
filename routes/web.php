@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+use Inertia\Inertia;
+
+
 
 Auth::routes();
 
@@ -32,4 +35,12 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user'], function () {
     Route::get('/expense/view/{expense}', [ExpenseController::class, 'view'])->name('expense.view');
     Route::post('/expense/update', [ExpenseController::class, 'update'])->name('expense.update');
     Route::get('/expense/delete/{expense}', [ExpenseController::class, 'delete'])->name('expense.delete');
+});
+
+Route::get('check-inertia', function () {
+    $expenses = Expense::all();
+
+    return Inertia::render('Home/index', [
+        'expenses' => $expenses,
+    ]);
 });
