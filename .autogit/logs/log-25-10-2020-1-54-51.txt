@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Wed Nov 25 2020 01:54:51 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* public/js/app.js
+* resources/js/Pages/Home/index.tsx
+* resources/js/app.js
+* routes/web.php
+* webpack.mix.js
+
+
+Created files:
+* .autogit/logs/log-25-10-2020-1-24-44.txt
+* .babelrc
+* public/0.js
+
+
+Deleted files:
+
+
+Renamed files:
